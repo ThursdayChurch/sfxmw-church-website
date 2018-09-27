@@ -9,14 +9,7 @@ gem 'net-ssh', '2.9.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
-  gem 'sqlite3'
-end
-
-group :production do
-  gem 'mysql2', '0.2.7'
-  gem 'rack', '1.2.1'
-end
+gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
